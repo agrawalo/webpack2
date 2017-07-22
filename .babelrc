@@ -1,0 +1,6 @@
+// "babel-preset-env" takes care of ES6 to ES5 transformation
+// "react" takes care of JSX, check we have already included babel-preset-react in our package.json.
+
+{
+  "presets": ["babel-preset-env", "react"]
+}
